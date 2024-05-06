@@ -83,11 +83,11 @@ func (fr *RandomFunctionFirer) AddFunction(f FirerFunction) error {
 			return false
 		}
 
-		if fr.funcs[a].PartProbability != 0 && fr.funcs[a].ExactProbability == 0 {
+		if fr.funcs[a].PartProbability != 0 {
 			return true
 		}
 
-		if fr.funcs[b].PartProbability != 0 && fr.funcs[b].ExactProbability == 0 {
+		if fr.funcs[b].PartProbability != 0 {
 			return true
 		}
 
