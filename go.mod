@@ -1,3 +1,3 @@
-module random-function-firer
+module randomFunctionFirer
 
-go 1.21.0
+go 1.23.0
